@@ -1,0 +1,146 @@
+.comments {
+	border: 1px solid grey;
+	margin: 7px;
+	padding: 0px 5px 0px 5px;
+}
+
+.comment-title a {
+	color: #0582ca;
+}
+
+.description {
+	border: 1px solid grey;
+	padding: 4px;
+	color: black;
+	background-color: white;
+	margin: 0px 5px 5px 5px;	
+	border-radius: 0px 0px 3px 3px;
+}
+
+.div-text-shadow { 
+	text-shadow: 2px 3px 7px #333333; 
+}
+
+.errors {
+	color: red;
+}
+
+.form-signup, .form-signin {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.item-container {
+	position: relative;
+	border: 2px solid #1a1a1a;
+	margin: 5px;
+	border-radius: 3px;
+}
+
+.left-space {
+	margin-left: 10px;
+}
+
+.order-position-arrows {
+	margin: 0px;
+	bottom: 10%;
+}
+
+.order-position-arrows button {
+	background-color: #b9d6f2;
+}
+
+.order-position-arrows button:hover,
+.order-position-arrows button:active {
+	background-color: #7eb4e7;
+}
+
+.post {
+	background-color: lightgrey;
+	border: 1px solid black;
+	border-radius: 7px;
+	padding: 0px;
+}
+
+.posts {
+	border: 1px solid grey;
+	margin: 7px 7px 7px 0px;
+	padding: 0px 5px 0px 5px;
+}
+
+.post-background {
+	background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* IE10+ */
+	background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); /* W3C */
+}
+
+.post-title {
+	margin: 5px 5px 0px 5px;
+}
+
+#title-submit {
+	margin-top: -10px;
+}
+
+.top-space {
+	margin-top: 10px;
+}
+
+.white-text {
+	color: white;
+}
+
+.word-wrap {
+	word-wrap: break-word;
+}
+
+
+.upload-image {
+	border-color: #e3e3e3;
+	border-width: 10px;
+	margin: auto;
+	max-height: 600px;
+}
+
+.upload-image-thumbnail {
+margin: auto;
+}
+
+#url:disabled {
+	background-color: #b3b3b3;
+}
+
+div div div.upload-image-thumbnail a {
+    position: absolute;
+    display: none;
+}
+
+div div div.upload-image-thumbnail button {
+    position: absolute;
+    display: none;
+}
+
+div div div.upload-image-thumbnail button.delete {
+    top: 5%;
+    right: 20%;
+}
+
+div div div.upload-image-thumbnail a.view {
+	top: 5%;
+	left: 20%;
+}
+
+div div div.upload-image-thumbnail a.download{
+	position: absolute;
+	display: none;
+}
+
+div div div.upload-image-thumbnail a.download {
+	bottom: 20%;
+	right: 20%;
+}
+
+
