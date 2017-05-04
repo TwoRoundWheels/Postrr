@@ -21,6 +21,7 @@ class CreatePostsTable extends Migration {
 			$table->string('description',2000);
 			$table->integer('comments_count')->unsigned();
 			$table->boolean('nsfw');
+			$table->boolean('video');
 			$table->timestamps();
 		});
 	}
