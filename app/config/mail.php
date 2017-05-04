@@ -15,7 +15,7 @@ return array(
 	|
 	*/
 
-	'driver' => $_ENV['MAIL_DRIVER'],
+	'driver' => getenv('MAIL_DRIVER'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -28,7 +28,7 @@ return array(
 	|
 	*/
 
-	'host' => $_ENV['MAIL_HOST'],
+	'host' => getenv('MAIL_HOST'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ return array(
 	|
 	*/
 
-	'port' => $_ENV['MAIL_PORT'],
+	'port' => getenv('MAIL_PORT'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => $_ENV['MAIL_ADDRESS'], 'name' => $_ENV['MAIL_NAME']),
+	'from' => array('address' => getenv('MAIL_ADDRESS'), 'name' => getenv('MAIL_NAME')),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -67,7 +67,7 @@ return array(
 	|
 	*/
 
-	'encryption' => $_ENV['MAIL_ENCRYPTION'],
+	'encryption' => getenv('MAIL_ENCRYPTION'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -80,7 +80,7 @@ return array(
 	|
 	*/
 
-	'username' => $_ENV['MAIL_USERNAME'],
+	'username' => getenv('MAIL_USERNAME'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return array(
 	|
 	*/
 
-	'password' => $_ENV['MAIL_PASSWORD'],
+	'password' => getenv('MAIL_PASSWORD'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -119,6 +119,6 @@ return array(
 	|
 	*/
 
-	'pretend' => $_ENV['PRETEND'],
+	'pretend' => getenv('PRETEND'),
 
 );
