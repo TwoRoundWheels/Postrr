@@ -51,4 +51,4 @@
 		<br>
 	</div> <!--/.container-->
 </div> <!--/.col-->
-{{ HTML::Script("/js/postActive.js") }}
+{{ HTML::Script("/js/postHighlight.js") }}

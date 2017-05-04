@@ -45,6 +45,6 @@
 		{{ HTML::linkAction('UploadsController@getAddTitles', "Save", $post->id, array("method"=>"GET", "type"=>"button", "class"=>"btn btn-large btn-primary pull-right top-space")) }}
 	</div>
 </div> 
-{{ HTML::Script("/js/postActive.js") }}
+{{ HTML::Script("/js/postHighlight.js") }}
 {{ HTML::Script("/js/uploadMovementButtons.js") }}
 
