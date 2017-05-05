@@ -46,7 +46,7 @@ Then let's create an environment file to store our environment variables.  Copy 
 cp .env.example .env.local.php
 ```
 
-Then edit `.env.local.php` file with appropriate credentials for your database server. Fill in the values for 'DATABASE_USER` and  `DATABASE_PASSWORD` as a string (don't delete the single quotes!) so Laravel is able to access the postrr database we created.  The code example uses nano, but any text editor will work for this step.   
+Then edit `.env.local.php` and add appropriate credentials for your database server. Fill in the values for `DATABASE_USER` and  `DATABASE_PASSWORD` as a string (don't delete the single quotes!) so Laravel is able to access the postrr database we created.  The code example uses nano, but any text editor will work for this step.   
 ```
 nano .env.local.php
 ```
@@ -65,7 +65,7 @@ Postrr should be successfully installed now.
 
 ## Run server
 
-We can use Artisan to act as a server on the local machine.  This
+We can use Artisan to act as a server on the local machine using this command.
 ```
 php artisan serve
 ```
@@ -78,11 +78,11 @@ In your browser navigate to `http://localhost:8000/users/register`.  This will p
 
 ### Disabling new users.
 
-Open `.env.local.php` in a text editor and set the `NEW_USERS` value to false.  This prevents new users from signing up and keeps your app private.
+Open `.env.local.php` in a text editor and set the `NEW_USERS` value to `false`.  This prevents new users from signing up and keeps your app private.
 
 ## Setting up mail
 
-Open `.env.local.php` in a text editor and fill in the value at the bottom with information from your mail server.  Setting the `PRETEND` value to false will allow emails to be sent.  If the `PRETEND` value is false, emails are logged in `app/storage/logs/laravel.log`.
+Open `.env.local.php` in a text editor and fill in the value at the bottom with information from your mail server.  Setting the `PRETEND` value to `false` will allow emails actually be sent.  If the `PRETEND` value is `true`, emails are logged in `app/storage/logs/laravel.log`.
 
 ## Troubleshooting  
 
@@ -99,16 +99,27 @@ sudo chmod 775 -R public/uploads
 ```
 ## Built with:
 
-[Laravel](https://laravel.com/)
-[MySql](https://www.mysql.com/)
-[Bootstrap](getbootstrap.com/)
-[jQuery](https://jquery.com/)
+*[Laravel 4.2](https://laravel.com/)
+*[MySql](https://www.mysql.com/)
+*[Bootstrap](getbootstrap.com/)
+*[jQuery](https://jquery.com/)
 
 ## Screenshots
 
+### Home Page
 ![Home Page](/screenshots/home.png)
+
+### Create New Post
 ![Create New Post](/screenshots/post.png)
+
+### Settings Page
 ![Settings](/screenshots/settings.png)
+
+### Sign In Page
 ![Sign In Page](/screenshots/login.png)
+
+### Example of Comments Page
 ![Comments](/screenshots/comments.png)
+
+### User Profile Page
 ![User Profile](/screenshots/profile.png)
