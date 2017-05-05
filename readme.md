@@ -9,7 +9,7 @@ Postrr is a demo of a link sharing site created using PHP, MySql, Bootstrap, jQu
 These instructions cover installing Postrr to a local machine.  The process for installing in a production environment is similar, but will vary a bit based on the hosting provider and the web server used.
 
 This installation needs the following:
-* Greater than PHP 5.3 installed. http://php.net/downloads.php
+* Greater than PHP 5.4 installed. http://php.net/downloads.php
 * Composer dependency manager. https://getcomposer.org/download/
 * MySql database. https://dev.mysql.com/downloads/
 
@@ -56,7 +56,7 @@ With the database now setup, we can use Artisan to migrate the table structure t
 php artisan migrate
 ```
 
-Finally we'll generate application key which will be used for session and cookie encryption and password hashing.
+Finally we'll generate an application key which will be used for session and cookie encryption and password hashing.
 ```
 php artisan key:generate
 ```
@@ -98,11 +98,10 @@ If you are receiving errors when uploading a file, you may need to change permis
 sudo chmod 775 -R public/uploads
 ```
 ## Built with:
-
-*[Laravel 4.2](https://laravel.com/)
-*[MySql](https://www.mysql.com/)
-*[Bootstrap](getbootstrap.com/)
-*[jQuery](https://jquery.com/)
+* [Laravel 4.2](https://laravel.com/)
+* [MySql](https://www.mysql.com/)
+* [Bootstrap](getbootstrap.com/)
+* [jQuery](https://jquery.com/)
 
 ## Screenshots
 
